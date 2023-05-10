@@ -65,6 +65,10 @@ p .bold{
     /* overflow: hidden; */
 }
 
+#canvas3d{
+    background-color: transparent;
+}
+
 .container{
     width:100vw;
     /* background-color: green; */
