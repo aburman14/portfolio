@@ -7,6 +7,8 @@ const light_btn=document.querySelector('#light-btn')
 const dark_btn1=document.querySelector('#dark-btn1')
 const light_btn1=document.querySelector('#light-btn1')
 const name1=document.querySelector('.name')
+const show_menu=document.querySelector('.show-menu')
+const close_btn=document.querySelector('.close-btn')
 import { Application } from '@splinetool/runtime';
 
 
@@ -21,19 +23,22 @@ const btn_click=()=>{
 
     item_list.classList.add('hide')
     alt_list.classList.remove('hide')
-    name1.classList.remove('hide')
+    // name1.classList.remove('hide')
 }
 
 const show_btn_click=()=>{
     // console.log('clicked')
     alt_list.classList.add('hide')
     item_list.classList.remove('hide')
-    name1.classList.add('hide')
+    // name1.classList.add('hide')
 
     // item_list.classList.add('hide')
     // alt_list.classList.remove('show-menu')
     // alt_list.style.display='none'
 }
+
+show_menu.addEventListener('click',show_btn_click)
+close_btn.addEventListener('click',btn_click)
 
 
 const change_darkmode=()=>{

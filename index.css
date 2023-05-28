@@ -56,8 +56,8 @@ p .bold{
     position: absolute;
     overflow: hidden;
     /* left:100px; */
-    left:30%;
-    top:10px;
+    /* left:30%; */
+    /* top:10px; */
   
     /* top:210px; */
     /* position: relative; */
@@ -190,6 +190,22 @@ p .bold{
     transform: translate(18px, 37px);
 }
 
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+    background: transparent;
+    /* gap:100px;
+    background-color: red;
+    width:100%; */
+    height:500px;
+    width:100%;
+    z-index: 1;
+    
+}
 
 .text-content{
    
@@ -1297,18 +1313,19 @@ mask{
     background: transparent;
     padding: 5px;
     
+    
   }
 
   .home-content{
     background-color: transparent;
-    position: absolute;
-    top: 259px;
+    /* position: absolute;
+    top: 259px; */
   }
 
   .home-content2{
     background-color: transparent;
-    position: absolute;
-    top: 359px;
+    /* position: absolute;
+    top: 359px; */
   }
 
   .letter-secondary{
@@ -1324,7 +1341,7 @@ mask{
 
   .letter{
     color:#03a9f4;
-    background: linear-gradient(to right, #120990 0%, #ea3455 100%);
+    background: linear-gradient(to right, #7cd2ef 0%, #ea3455 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
@@ -1333,8 +1350,8 @@ mask{
     font-size: 23px;
     text-align: center;
     padding: 10px;
-    position: absolute;
-    top: 333px;
+    /* position: absolute;
+    top: 433px; */
     background-color: transparent;
     color:rgb(144, 208, 245);
   }
